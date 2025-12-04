@@ -1,27 +1,21 @@
-# 🔐 Password Strength Checker (Python)
+# Password Strength Checker
 
-A beginner-friendly cybersecurity tool that evaluates password strength and provides suggestions to improve it.  
-Includes SHA-256 hashing demonstration to show how passwords can be stored securely.
+A simple Python-based password strength checker that analyzes passwords, scores them, and gives suggestions for improvement. It also generates a SHA-256 hash of the password.
 
----
+## Features
+- Checks for uppercase letters
+- Checks for lowercase letters
+- Checks for numbers
+- Checks for special characters
+- Checks password length
+- Generates SHA-256 hash
+- Gives suggestions for improvement
 
-## **Features**
+## How to Run
+Open your terminal inside the project folder and run:
 
-- Rates passwords as **Weak**, **Medium**, or **Strong**  
-- Checks for:
-  - Minimum length  
-  - Uppercase letters  
-  - Lowercase letters  
-  - Numbers  
-  - Special characters (!@#$%, etc)  
-- Provides improvement suggestions for weak passwords  
-- Demonstrates **SHA-256 hashing** for secure password storage
+python main.py
 
----
 
-## **Installation**
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/YOURUSERNAME/password-strength-checker.git
+## License
+This project uses the MIT License.
