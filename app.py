@@ -22,4 +22,7 @@ def index():
     return render_template("index.html", result=result)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Run locally with host 0.0.0.0 and port 5000
+    app.run(host="0.0.0.0", port=5000)
+
+
