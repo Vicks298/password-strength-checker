@@ -19,3 +19,7 @@ python main.py
 
 ## License
 This project uses the MIT License.
+
+## Live Demo
+Try the web version here: [Password Strength Checker](https://password-strength-checker-wk7g.onrender.com)
+
